@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { useState, useEffect } from 'react';
 import { Container, Typography, FormControlLabel, Checkbox, Box } from '@mui/material'
 import PasswordOptions from './components/PasswordOptions'
@@ -45,6 +46,17 @@ function App() {
         <PasswordDisplay password={password} handleCopy={handleCopy} handleGenerate={handleGenerate} showGenerateButton={!autoGenerate} />
       </Container>
     </Box>
+=======
+import { useState } from 'react'
+
+
+function App() {
+
+  return (
+    <>
+     password generator
+    </>
+>>>>>>> 0e2539b2c22165e5011d28324dcd7ec698c01776
   )
 }
 
